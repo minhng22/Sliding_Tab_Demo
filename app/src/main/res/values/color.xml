@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "white"> #FFFFFF </color>
+    <color name = "black"> #000000 </color>
+    <color name="ColorPrimary">#e62117</color>
+    <color name="ColorPrimaryDark">#c31c13</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="favoritegreen">#64DD17</color>
+    <color name ="greatblue">#BBDEFB</color>
+    <color name="blueforbutton">#64B5F6</color>
+    <color name ="grey">#616161</color>
+    <color name="red">#F44336</color>
+    <color name="greybutton">#424242</color>
+    <color name="grey1">#ffd5ddeb</color>
+    <color name="grey2">#ffe3e8f1</color>
+</resources>

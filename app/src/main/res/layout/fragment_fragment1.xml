@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/Layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation= "horizontal"
+    tools:context=".MainActivity">
+    //This is most probably the activity the tools UI editor uses to render your layout
+
+    <Button android:id="@+id/button1"
+        android:layout_width ="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:text="SubActivity1"
+        android:background="@color/white"
+        android:layout_above="@+id/button2"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/button2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="SubActivity2"
+        android:textColor="@color/white"
+        android:background="@color/greybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

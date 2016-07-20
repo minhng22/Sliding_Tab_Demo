@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="android:background">@color/ColorPrimary</item>
+        <item name= "android:textColor">@color/white </item>
+    </style>
+
+    <style name="MyActionBar"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@color/ColorPrimaryDark</item>
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle"
+        parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name= "android:text"> @string/app_name</item>
+        <item name="android:textStyle"> bold</item>
+        <item name="android:fontFamily">Monospace</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TabTextStyle"
+        parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+</resources>
+
+
